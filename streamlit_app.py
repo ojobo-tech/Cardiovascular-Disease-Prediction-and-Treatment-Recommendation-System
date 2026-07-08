@@ -4,9 +4,12 @@ import numpy as np
 import shap
 import joblib
 import matplotlib.pyplot as plt
+from pathlib import Path
 from utils.recommendations import RECOMMENDATION_MAP, FEATURE_NAME_MAP
 
-model = joblib.load("saved_models/xgboost.pkl")
+BASE_DIR = Path(__file__).resolve().parent
+model_path = BASE_DIR / "xgboost.pkl"
+model = joblib.load(model_path)
 explainer = shap.Explainer(model)
 
 st.set_page_config(page_title="CVD Risk Predictor", layout="wide")
