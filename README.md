@@ -1,5 +1,5 @@
 # Personalized Treatment Recommendation System for Cardiovascular Disease
-
+https://cvdcaresystem.streamlit.app/
 ## Project Description
 
 This project aims to develop a **Personalized Treatment Recommendation System** for cardiovascular disease (CVD) using machine learning and explainable AI. The system analyzes patient data (e.g., demographics, vital signs, lifestyle factors) to predict CVD risk and recommend tailored treatments. The goal is to improve patient outcomes and reduce healthcare costs by providing data-driven, personalized care.
